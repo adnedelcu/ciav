@@ -48,7 +48,6 @@ namespace ciav
             {
                 ffmpeg.StartInfo.Arguments = " -i " + videoInput + " -s " + videoWidth.Text + "x" + videoHeight.Text + " -b " + videoBitrate.Text + "k -ab " + audioBitrate.Text + "k -ar " + audioSample.Text + " " + videoOutput; // arguments !
             }
-
             ffmpeg.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             ffmpeg.StartInfo.FileName = "ffmpeg.exe";
             ffmpeg.EnableRaisingEvents = true;
