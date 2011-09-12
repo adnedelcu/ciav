@@ -1,0 +1,9 @@
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\bin\Debug\ciav.exe
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\bin\Debug\ciav.pdb
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ciav.Properties.Resources.resources
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ResGen.read.1.tlog
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ResGen.write.1.tlog
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ciav.exe
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ciav.pdb
+c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ciav.Form1.resources
