@@ -7,3 +7,5 @@ c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ResGe
 c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ciav.exe
 c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ciav.pdb
 c:\users\noi\documents\visual studio 2010\Projects\ciav\ciav\obj\x86\Debug\ciav.Form1.resources
+D:\mds\ciav\obj\x86\Debug\ciav.exe
+D:\mds\ciav\obj\x86\Debug\ciav.pdb
