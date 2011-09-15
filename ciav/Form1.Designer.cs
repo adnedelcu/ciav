@@ -51,12 +51,11 @@
             this.label8 = new System.Windows.Forms.Label();
             this.audioSample = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(206, 264);
+            this.button1.Location = new System.Drawing.Point(105, 266);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -77,7 +76,6 @@
             // openFileDialog1
             // 
             this.openFileDialog1.Filter = "Video Files|*.avi;*.mpeg;*.mp4;*.wmv";
-            this.openFileDialog1.InitialDirectory = "c:\\";
             this.openFileDialog1.Title = "Open File";
             // 
             // inputFile
@@ -131,11 +129,7 @@
             // 
             this.videoBitrate.FormattingEnabled = true;
             this.videoBitrate.Items.AddRange(new object[] {
-            "32",
-            "60",
             "64",
-            "119",
-            "120",
             "128",
             "144",
             "146",
@@ -146,18 +140,12 @@
             "256",
             "320",
             "400",
-            "500",
-            "600",
-            "750",
-            "760",
-            "1024",
-            "1228",
-            "1331"});
+            "1024"});
             this.videoBitrate.Location = new System.Drawing.Point(89, 81);
             this.videoBitrate.Name = "videoBitrate";
             this.videoBitrate.Size = new System.Drawing.Size(161, 21);
             this.videoBitrate.TabIndex = 10;
-            this.videoBitrate.Text = "32";
+            this.videoBitrate.Text = "128";
             // 
             // label4
             // 
@@ -227,9 +215,6 @@
             // 
             this.audioBitrate.FormattingEnabled = true;
             this.audioBitrate.Items.AddRange(new object[] {
-            "16",
-            "32",
-            "44",
             "48",
             "64",
             "80",
@@ -282,10 +267,10 @@
             // 
             this.audioSample.FormattingEnabled = true;
             this.audioSample.Items.AddRange(new object[] {
+            "11025",
             "22050",
             "32000",
-            "44100",
-            "48000"});
+            "44100"});
             this.audioSample.Location = new System.Drawing.Point(89, 187);
             this.audioSample.Name = "audioSample";
             this.audioSample.Size = new System.Drawing.Size(161, 21);
@@ -301,21 +286,11 @@
             this.label9.TabIndex = 22;
             this.label9.Text = "Audio Sample";
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(19, 264);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(181, 23);
-            this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.progressBar1.TabIndex = 24;
-            this.progressBar1.Visible = false;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(290, 299);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.audioSample);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -370,7 +345,6 @@
         private System.Windows.Forms.ComboBox audioSample;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 

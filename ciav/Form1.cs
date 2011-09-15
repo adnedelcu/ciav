@@ -54,16 +54,13 @@ namespace ciav
             ffmpeg.Exited += new EventHandler(ffmpeg_Exited);
             ffmpeg.Start();
             button1.Enabled = false;
-            progressBar1.Visible = true;
-            Cursor = Cursors.WaitCursor;
             MessageBox.Show("Please wait, conversion in progress", "Conversion info:");
-        }
-
-        void ffmpeg_Exited(object sender, EventArgs e)
-        {
+            ffmpeg.WaitForExit();
             button1.Enabled = true;
-            progressBar1.Visible = false;
-            Cursor = Cursors.Default;
+        }
+        
+        private void ffmpeg_Exited(object sender, EventArgs e)
+        {
             MessageBox.Show("Conversion Complete", "Conversion Info:");
         }
 
